@@ -21,3 +21,17 @@ test.describe('Login and Profile Verification', () => {
     });
   });
 });
+
+/*import { test, expect } from '@playwright/test';
+
+test('test', async ({ page }) => {
+  await page.goto('http://localhost:5173/dashboard');
+  await page.getByRole('link', { name: 'Sign in' }).click();
+  await page.getByRole('textbox', { name: 'Email address or username' }).fill('regietest');
+  await page.getByRole('button', { name: 'Continue' }).click();
+  await page.getByRole('textbox', { name: 'Password' }).fill('regietest21');
+  await page.getByRole('button', { name: 'Continue' }).click();
+  await page.getByRole('button', { name: 'Show password' }).click();
+  await page.getByRole('textbox', { name: 'Password' }).click();
+  await page.getByRole('button', { name: 'Continue' }).click();
+});*/
